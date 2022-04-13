@@ -1,7 +1,14 @@
 import "./index.css";
+import Header from "./components/Header";
+import Data from "./components/Data";
 
 function App() {
-  return <div></div>;
+  return (
+    <>
+      <Header />
+      <Data />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,51 @@
+html {
+  background-color: rgb(212, 248, 212);
+  margin: 10px;
+}
+
+header {
+  font-size: 16px;
+}
+header span {
+  background-color: rgb(189, 181, 181);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
+
+select {
+  background-color: rgb(69, 212, 69);
+  border-radius: 20px;
+  height: 30px;
+  font-size: 8px;
+  border: none;
+  font-weight: bold;
+}
+select:focus:active {
+  font-weight: bold;
+}
+
+.nameFilter {
+  float: right;
+}
+
+ul {
+  background-color: rgb(176, 238, 176);
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 4px;
+}
+
+ul li span {
+  background-color: rgb(206, 206, 206);
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+}
